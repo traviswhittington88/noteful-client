@@ -1,0 +1,17 @@
+.App__sidebar {
+    height: 200vh;
+    width: 30vw;
+    background-color:  #0b1b32;
+    display: flex;
+
+}
+
+.folder-name {
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    font-size: 40px;
+    color: #b5b3b3;
+    height: 50hv;
+    width: 75px;
+    
+}

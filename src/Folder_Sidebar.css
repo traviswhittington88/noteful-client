@@ -1,0 +1,36 @@
+.App__sidebar {
+    height: 200vh;
+    width: 30vw;
+    background-color:  #0b1b32;
+}
+
+.Sidebar__ul {
+    display: flex;
+    flex-direction: column;
+    padding-top: 65px;
+    height: 100%;
+    
+    /* align-items: flex-end;  worked for <li> w/o a width on <li> */
+}
+
+.folderItem {
+    
+    height: 35px;
+    background-color: #030f1f;
+    margin: 3px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.folderItem a {
+    text-decoration: none;
+    color: #b5b3b3;
+    
+}
+
+.addFolderButton {
+    margin: 10px auto;
+    background-color: white;
+    color: black;
+    
+}

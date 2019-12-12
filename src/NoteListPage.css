@@ -1,0 +1,74 @@
+
+.container {
+    display: flex;
+}
+
+.Nav__container {
+    width: 35%;
+    height: 100vh;
+    background-color: darkblue;
+    grid-area: sidebar;
+
+}
+
+.Note_list {
+    list-style: none;
+    margin: 0 auto;
+    padding-left: 20px;
+    
+
+}
+
+.Note_item {
+    background-color: #030f1f;
+    font-size: 20px;
+    height: 88px;
+    margin-bottom: 10px;
+    max-width: 380px;
+}
+
+.Note { 
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    
+}
+
+.Note_title {
+    
+    font-size: 20px;
+    margin: 0;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+.Note_delete {
+   background-color: #041a3a;
+   color: #bdbcbc;
+   display: inline-flex;
+   align-items: center;
+   width: 36px;
+ 
+
+}
+
+.Note_delete p {
+    transform: rotate(-90deg);
+    margin: 0;
+    
+    height: 100%;
+    
+}
+
+
+.Note_item a {
+    color: #b5b3b3;
+    text-decoration: none;
+}
+
+.modified, .datePre {
+    font-size: 12px;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+

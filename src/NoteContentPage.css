@@ -1,0 +1,63 @@
+.note_ul {
+    list-style: none;
+    margin: 0 auto;
+    padding-left: 20px;
+    height: 100%;
+    background-color: white;
+    
+}
+
+
+.note_item {
+    background-color: #030f1f;
+    font-size: 20px;
+    height: 88px;
+    margin-bottom: 10px;
+    max-width: 380px;
+}
+
+.note { 
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+
+.note_title {
+    height: 50px;
+    font-size: 20px;
+    margin: 0;
+    padding-left: 5px;
+  
+}
+
+.note_delete {
+   background-color: #041a3a;
+   color: #bdbcbc;
+   display: inline-flex;
+   align-items: center;
+   width: 36px;
+ 
+
+}
+
+.note_delete p {
+    transform: rotate(-90deg);
+    margin: 0;
+    height: 100%;
+    
+}
+
+
+.note_item a {
+    color: #b5b3b3;
+    text-decoration: none;
+ 
+}
+
+.modified, .datePre {
+    font-size: 12px;
+    padding-left: 5px;
+    padding-top: 10px;
+}

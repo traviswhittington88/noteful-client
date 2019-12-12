@@ -1,0 +1,15 @@
+.AddFolderApp {
+    height: 100vh;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    width: auto;
+}
+
+.AddFolderForm {
+    align-self: center;
+}
+
+.folderNameInput, .submit, .folderLabel {
+    margin: 10px;
+}

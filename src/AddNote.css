@@ -1,0 +1,51 @@
+.addNoteApp {
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.addNoteForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.addNoteForm textarea {
+    width: 100%;
+    height: 100px;
+}
+
+
+
+.errorMessage {
+    color: red;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+#noteName {
+    margin: 3px
+
+}
+
+label {
+    margin-bottom: 3px;
+}
+
+select {
+    margin: 5px 0px;
+}
+
+textarea {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input.submitButton {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 3px;
+}

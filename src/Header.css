@@ -1,0 +1,12 @@
+
+
+.App__header .Header_title {
+    margin: 0;
+    padding-top: 52px;
+}
+
+.App__header a {
+    color: lightblue;
+    text-align: center;
+    
+}
